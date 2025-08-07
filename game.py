@@ -1,6 +1,9 @@
 import random
+from smart_ai import SmartAI
 
 choices = ['rock', 'paper', 'scissors']
+ai = SmartAI()
+print("Rock , Paper, Scissors with Smart AI!")
 win_map = {'rock': 'scissors', 'paper': 'rock', 'scissors': 'paper'}
 lose_map = {v: k for k, v in win_map.items()} # reverse the win_map
 
